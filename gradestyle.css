@@ -1,0 +1,33 @@
+#disp{
+	background: ghostwhite;
+	color: white;
+	width: 154px;
+	height: 40px;
+	font-size: 20px;
+	text-align: right;
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: 40px 40px 40px 40px;
+	justify-content: center;
+}
+.grid-container input{
+	height: 40px;
+	color: white;
+	background: black;
+}
+.grid-container input:hover{
+	background: gray;
+}
+#ac{
+	background: red;
+}
+#eq{
+	background: limegreen;
+}
+#ac:hover{
+	background: darkred;
+}
+#eq:hover{
+	background: green;
+}
